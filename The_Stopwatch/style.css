@@ -1,3 +1,5 @@
+
+/* main Container */
 body{
     background-color: rgb(97, 91, 134);
     display: flex;
@@ -5,6 +7,7 @@ body{
     align-items: center;
     height: 100vh;
 }
+/* parent Container */
 #container{
     color: silver;
     padding: 50px 60px ;
@@ -23,9 +26,9 @@ body{
 }
 #btn-container{
     text-align: center;
-   
     margin-top: 40px;
 }
+/* action buttons */
 .btn{
     padding: 7px 25px;
     font-size: 30px;

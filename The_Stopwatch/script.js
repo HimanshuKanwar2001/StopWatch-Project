@@ -8,12 +8,10 @@ var timer =false;
 function start(){
     timer=true;
     stopwatch();
-
 }
 
 function stop(){
     timer=false;
-
 }
 
 function reset(){
@@ -29,6 +27,7 @@ function reset(){
     document.getElementById("count").innerHTML="00";
 
 }
+// all the value is set using this function
 function stopwatch(){
     if(timer == true){
         count=count+1;
